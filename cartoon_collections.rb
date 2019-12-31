@@ -1,6 +1,6 @@
 def roll_call_dwarves(dwarves)
   counter = 0
-until counter == dwarves.length 
+until counter == dwarves.length + 1 
 puts "#{counter} #{dwarves}"
 counter += 1
   end
