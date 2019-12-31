@@ -1,9 +1,8 @@
 def roll_call_dwarves(dwarves)
-  array = []
+  
   dwarves.each.with_index do |i, index|
-    message ="#{index} #{i}"
-    array << message
-    puts "#{array.join("")}"
+    
+    puts "#{index} #{i.shift}"
   end
 end
 
