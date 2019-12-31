@@ -1,6 +1,8 @@
 def roll_call_dwarves(dwarves)
+  array = []
   dwarves.each.with_index do |i, index|
-    puts "#{index} #{dwarves}"
+    message ="#{index} #{dwarves}"
+    array << message
   end
 end
 
