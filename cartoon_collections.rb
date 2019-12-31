@@ -1,8 +1,8 @@
 def roll_call_dwarves(dwarves)
-  
-  dwarves.each.with_index do |i, index|
-    
-    puts "#{index} #{i.shift}"
+  counter = 1
+until counter == dwarves.length 
+puts "#{counter} #{dwarves}"
+counter += 1
   end
 end
 
