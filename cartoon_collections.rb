@@ -3,6 +3,7 @@ def roll_call_dwarves(dwarves)
   dwarves.each.with_index do |i, index|
     message ="#{index} #{i}"
     array << message
+    array
   end
 end
 
