@@ -7,12 +7,15 @@ counter += 1
 end
 
 def summon_captain_planet(veggies)
-  veggies
-  end
+  if veggies.length == 3
+    veggies
+  else
+  
   array =[]
   string = veggies.join("! ")
   array << string.capitalize
-  
+  end
+ end
 
 
 
