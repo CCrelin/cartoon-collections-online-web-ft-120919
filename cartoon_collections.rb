@@ -9,6 +9,10 @@ end
 def summon_captain_planet(veggies)
   veggies
   end
+  array =[]
+  string = veggies.join("! ")
+  array << string.capitalize
+end
 
 
   
