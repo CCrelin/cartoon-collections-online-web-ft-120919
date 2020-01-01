@@ -7,7 +7,7 @@ counter += 1
 end
 
 def summon_captain_planet(veggies)
-  veggies.join("!")&.capitalize
+  veggies.join("! ")&.capitalize
 
 
   
