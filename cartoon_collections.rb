@@ -7,7 +7,7 @@ counter += 1
 end
 
 def summon_captain_planet(veggies)
-  puts "#{veggies}"
+  veggies
   end
 
 
