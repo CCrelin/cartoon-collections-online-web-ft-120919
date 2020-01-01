@@ -10,10 +10,8 @@ def summon_captain_planet(veggies)
   if veggies.length == 3
     veggies
   else
-  
-  array =[]
-  string = veggies.join("! ")
-  array << string.capitalize
+    veggies.each do |w| 
+      veggies.include(w)
   end
  end
 
