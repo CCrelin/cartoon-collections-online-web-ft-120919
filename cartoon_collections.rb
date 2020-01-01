@@ -7,8 +7,7 @@ counter += 1
 end
 
 def summon_captain_planet(veggies)
-  veggies.each do |i| 
-    veggies.capitalize + "!"
+  puts "#{veggies}"
   end
 
 
