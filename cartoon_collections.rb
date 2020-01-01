@@ -11,7 +11,7 @@ def summon_captain_planet(veggies)
     veggies
   else
     veggies.each do |w| 
-      include w
+      veggies.include?
   end
  end
 
